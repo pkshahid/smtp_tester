@@ -1,4 +1,4 @@
-# smtp_tester
+# SMTP TESTR & BULK MAIL SENDER
 A simple python script to check your SMTP credentials are working or not . Also can be used to send mails
 
 SMTP Tester / Mail Sender Using Python Library smtplib
