@@ -3,7 +3,7 @@ SMTP Tester / Mail Sender Using Python Library smtplib
 ------------------------------------------------------------------------
 By: Mohammed Shahid
 ------------------------------------------------------------------------
-Repo : 
+Repo : https://github.com/pkshahid/smtp_tester/
 
 
 Usage: python test_smtp.py
@@ -27,18 +27,18 @@ import sys
 #-----------------------------------------------------------------------
 #                       CONFIGURATION INPUTS 
 #-----------------------------------------------------------------------
-USE_SSL = False                                 # True to use with SSL
-USE_TLS = True                                  # True to user with TLS
-SMTP_USER = '<smtp_username>'                   # SMTP USERNAME
-SMTP_PASS = '<smtp_password>'                   # SMTP PASSWORD 
-FROM_ADDRESS = 'frommail@example.com'           # Email address which use as From address
-TO_ADDRESS = 'tomail@example.com'               # Email Address or array of emails which mail to be send
-SERVER_ADDRESS = '<smtp_host>'                  # SMTP Host        
-PORT = 587                                      # SMTP Port  (Eg :- 587,25,465)
-DEBUG = 1                                       # 1/0 to set/unset Debug mode
-VERBOSE = True                                  # True/False to enable/disable Verbose
+USE_SSL        = False                                  # True to use with SSL
+USE_TLS        = True                                   # True to user with TLS
+SMTP_USER      = '<smtp_username>'                   	# SMTP USERNAME
+SMTP_PASS      = '<smtp_password>'                  	# SMTP PASSWORD 
+FROM_ADDRESS   = 'frommail@example.com'           	# Email address which use as From address
+TO_ADDRESS     = 'tomail@example.com'               	# Email Address or array of emails which mail to be send
+SERVER_ADDRESS = '<smtp_host>'                  	# SMTP Host        
+PORT 	       = 587                                    # SMTP Port  (Eg :- 587,25,465)
+DEBUG	       = 1                                      # 1/0 to set/unset Debug mode
+VERBOSE        = True                                   # True/False to enable/disable Verbose
 
-TIMESTAMP = strftime("%Y-%m-%d %H:%M:%S")       # Current Time (Optional)
+TIMESTAMP      = strftime("%Y-%m-%d %H:%M:%S")          # Current Time (Optional)
 
 #-----------------------------------------------------------------------
 
