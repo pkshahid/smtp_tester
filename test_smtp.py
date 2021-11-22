@@ -20,7 +20,6 @@ See also http://docs.python.org/library/smtplib.html
 
 import smtplib
 from time import strftime
-import sys
 
 
 
